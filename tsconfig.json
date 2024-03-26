@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "lib": ["es6", "dom", "es2019"],
+    "sourceMap": false,
+    "allowJs": true,
+    "strict": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "declaration": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "dist",
+    "acceptance-tests",
+    "webpack"
+  ],
+  "types": ["typePatches"]
+}

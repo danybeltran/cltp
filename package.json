@@ -1,0 +1,29 @@
+{
+  "name": "cltp",
+  "version": "0.0.1",
+  "description": "Http client",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && webpack --mode production && jest",
+    "compile": "tsc && webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atomic-state/cltp"
+  },
+  "keywords": [
+    "ssr",
+    "http",
+    "api",
+    "fetching",
+    "http request",
+    "fetching utilities"
+  ],
+  "author": "Dany Beltran",
+  "license": "MIT",
+  "homepage": "https://github.com/atomic-state/cltp",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
